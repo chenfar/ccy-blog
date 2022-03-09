@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Root {
     @GetMapping("/")
     public String blog(){
-        return "hello, this is ccy-blog";
+        return "hello, this is ccy-";
     }
 }
